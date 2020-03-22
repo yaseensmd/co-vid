@@ -1,0 +1,145 @@
+{
+    "status": "success",
+    "categories": [
+      {
+        "label": "WATER & ENVIRONMENT",
+        "key": "WATER & ENVIRONMENT"
+      },
+      {
+        "label": "FSSAI",
+        "key": "FSSAI"
+      },
+      {
+        "label": "APEDA",
+        "key": "APEDA"
+      },
+      {
+        "label": "Miscellaneous",
+        "key": "Miscellaneous"
+      },
+      {
+        "label": "Pharma",
+        "key": "Pharma"
+      },
+      {
+        "label": "Container",
+        "key": "Container"
+      },
+      {
+        "label": "BIS",
+        "key": "BIS"
+      },
+      {
+        "label": "MICROBIOLOGY",
+        "key": "MICROBIOLOGY"
+      },
+      {
+        "label": "EIC-Sea Food",
+        "key": "EIC-Sea Food"
+      },
+      {
+        "label": "FOOD",
+        "key": "FOOD"
+      },
+      {
+        "label": "EIC-SE",
+        "key": "EIC-SE"
+      },
+      {
+        "label": "EIC-SN",
+        "key": "EIC-SN"
+      },
+      {
+        "label": "EIC WATER",
+        "key": "EIC WATER"
+      }
+    ],
+    "customers": [
+      {
+        "label": "GLens Innovation Labs Pvt Ltd",
+        "key": "customer_master_19"
+      },
+      {
+        "label": "Ponni Sugars (Erode) Ltd",
+        "key": "customer_master_20"
+      },
+      {
+        "label": "GLens Innovation Labs Pvt Ltd",
+        "key": "customer_master_21"
+      },
+      {
+        "label": "Chettinad Cement Corporation Private Limited",
+        "key": "customer_master_22"
+      },
+      {
+        "label": "Deepak Fertilisers and Petrochemeicals Corporation Limited",
+        "key": "customer_master_23"
+      },
+      {
+        "label": "Bannari Amman Sugars Ltd",
+        "key": "customer_master_24"
+      },
+      {
+        "label": "SMS Lifesciences India Limited",
+        "key": "customer_master_25"
+      },
+      {
+        "label": "India Cements",
+        "key": "customer_master_26"
+      },
+      {
+        "label": "MylanLaboratories Limited",
+        "key": "customer_master_27"
+      },
+      {
+        "label": "Anjan Drug Private Limited",
+        "key": "customer_master_28"
+      },
+      {
+        "label": "India Cements",
+        "key": "customer_master_29"
+      },
+      {
+        "label": "GLens Innovation Labs Pvt Ltd",
+        "key": "customer_master_30"
+      },
+      {
+        "label": "Asian Beverages Private Limited",
+        "key": "customer_master_31"
+      },
+      {
+        "label": "M/s.Coramandal International Ltd",
+        "key": "customer_master_32"
+      },
+      {
+        "label": "M/S DALMIA CEMENT (BHARAT) LIMITED",
+        "key": "customer_master_33"
+      },
+      {
+        "label": "Zuari Cements Limited",
+        "key": "customer_master_34"
+      },
+      {
+        "label": "Tata Chemicals Limited",
+        "key": "customer_master_35"
+      },
+      {
+        "label": "India Cement Dalavoi works - Ariyalur",
+        "key": "customer_master_36"
+      }
+    ],
+    "procedures": [
+      {
+        "label": "AAQ/Stack/IAQ - GL/EN/SOP/003",
+        "key": "AAQ/Stack/IAQ - GL/EN/SOP/003"
+      },
+      {
+        "label": "Water & Waste Water- GL/EN/SOP/001",
+        "key": "Water & Waste Water- GL/EN/SOP/001"
+      },
+      {
+        "label": "Soil - GL/EN/SOP/155",
+        "key": "Soil - GL/EN/SOP/155"
+      }
+    ]
+  }

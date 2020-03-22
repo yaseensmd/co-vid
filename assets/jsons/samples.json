@@ -1,0 +1,441 @@
+{
+    "record_id": "REC_2001_0018",
+    "sampleContent": [
+      {
+        "sampleNo": "EN20010022-01",
+        "sampleName": "AAQ - 12 Parameters as per NAAQS Specification",
+        "description": "test",
+        "identification": "",
+        "sampleQty": "",
+        "procedure": "AAQ/Stack/IAQ - GL/EN/SOP/003",
+        "collectedBy": "",
+        "amount": "",
+        "location": "Ariyalur",
+        
+        "test_list": [
+          {
+            "testName": "Benzene",
+            "method": "IS: 5182 Part 11",
+            "unit": "µg/m³",
+            "sampleName": "AAQ - 12 Parameters as per NAAQS Specification",
+            "detectionLimit": "1",
+            "requirement": "-",
+            "userName": "admin@knowledgelens.com",
+            "group": "VOC",
+            "remarks": "",
+            "entryDate": "2019-05-24 18:46:30",
+            "description": "",
+            "sampleCode": "EN",
+            "sampleCategory": "Water and Environment",
+            "department": "Instrument",
+            "record_id": "test_method_3",
+            "selected": true
+          },
+          {
+            "testName": "Benzene",
+            "method": "IS: 5182 Part 11",
+            "unit": "µg/m³",
+            "sampleName": "AAQ - 12 Parameters as per NAAQS Specification",
+            "detectionLimit": "1",
+            "requirement": "-",
+            "userName": "admin@knowledgelens.com",
+            "group": "VOC",
+            "remarks": "",
+            "entryDate": "2019-05-24 18:46:30",
+            "description": "",
+            "sampleCode": "EN",
+            "sampleCategory": "Water and Environment",
+            "department": "Instrument",
+            "record_id": "test_method_3",
+            "selected": true
+          },
+          {
+            "testName": "Benzene",
+            "method": "IS: 5182 Part 11",
+            "unit": "µg/m³",
+            "sampleName": "AAQ - 12 Parameters as per NAAQS Specification",
+            "detectionLimit": "1",
+            "requirement": "-",
+            "userName": "admin@knowledgelens.com",
+            "group": "VOC",
+            "remarks": "",
+            "entryDate": "2019-05-24 18:46:30",
+            "description": "",
+            "sampleCode": "EN",
+            "sampleCategory": "Water and Environment",
+            "department": "Instrument",
+            "record_id": "test_method_3",
+            "selected": true
+          },
+          {
+            "testName": "Ammonia as NH3",
+            "method": "GL/EN/SOP/057",
+            "unit": "µg/m³",
+            "sampleName": "AAQ - 12 Parameters as per NAAQS Specification",
+            "detectionLimit": "20",
+            "requirement": "400",
+            "userName": "admin@knowledgelens.com",
+            "group": "Chemical",
+            "remarks": "",
+            "entryDate": "2019-05-24 18:46:30",
+            "description": "",
+            "sampleCode": "EN",
+            "sampleCategory": "Water and Environment",
+            "department": "Proximate",
+            "record_id": "test_method_1",
+            "selected": true
+          },
+          {
+            "testName": "Benzene",
+            "method": "IS: 5182 Part 11",
+            "unit": "µg/m³",
+            "sampleName": "AAQ - 12 Parameters as per NAAQS Specification",
+            "detectionLimit": "1",
+            "requirement": "-",
+            "userName": "admin@knowledgelens.com",
+            "group": "VOC",
+            "remarks": "",
+            "entryDate": "2019-05-24 18:46:30",
+            "description": "",
+            "sampleCode": "EN",
+            "sampleCategory": "Water and Environment",
+            "department": "Instrument",
+            "record_id": "test_method_3",
+            "selected": true
+          },
+          {
+            "testName": "Ammonia as NH3",
+            "method": "GL/EN/SOP/057",
+            "unit": "µg/m³",
+            "sampleName": "AAQ - 12 Parameters as per NAAQS Specification",
+            "detectionLimit": "20",
+            "requirement": "400",
+            "userName": "admin@knowledgelens.com",
+            "group": "Chemical",
+            "remarks": "",
+            "entryDate": "2019-05-24 18:46:30",
+            "description": "",
+            "sampleCode": "EN",
+            "sampleCategory": "Water and Environment",
+            "department": "Proximate",
+            "record_id": "test_method_1",
+            "selected": true
+          },
+          {
+            "testName": "Arsenic as As ",
+            "method": "IS 5182 (Part- 22)",
+            "unit": "ng/m³",
+            "sampleName": "AAQ - 12 Parameters as per NAAQS Specification",
+            "detectionLimit": "0.1",
+            "requirement": "-",
+            "userName": "admin@knowledgelens.com",
+            "group": "Chemical",
+            "remarks": "",
+            "entryDate": "2019-05-24 18:46:30",
+            "description": "",
+            "sampleCode": "EN",
+            "sampleCategory": "Water and Environment",
+            "department": "Proximate",
+            "record_id": "test_method_2",
+            "selected": true
+          },
+          {
+            "testName": "Benzene",
+            "method": "IS: 5182 Part 11",
+            "unit": "µg/m³",
+            "sampleName": "AAQ - 12 Parameters as per NAAQS Specification",
+            "detectionLimit": "1",
+            "requirement": "-",
+            "userName": "admin@knowledgelens.com",
+            "group": "VOC",
+            "remarks": "",
+            "entryDate": "2019-05-24 18:46:30",
+            "description": "",
+            "sampleCode": "EN",
+            "sampleCategory": "Water and Environment",
+            "department": "Instrument",
+            "record_id": "test_method_3",
+            "selected": true
+          },
+          {
+            "testName": "Benzo (a) Pyrene (Particulate Phase)",
+            "method": "IS 5182 (Part -4)/USEPA8270 ",
+            "unit": "ng/m³",
+            "sampleName": "AAQ - 12 Parameters as per NAAQS Specification",
+            "detectionLimit": "0.03",
+            "requirement": "-",
+            "userName": "admin@knowledgelens.com",
+            "group": "PAH",
+            "remarks": "",
+            "entryDate": "2019-05-24 18:46:30",
+            "description": "",
+            "sampleCode": "EN",
+            "sampleCategory": "Water and Environment",
+            "department": "Instrument",
+            "record_id": "test_method_4",
+            "selected": true
+          },
+          {
+            "testName": "Ammonia as NH3",
+            "method": "GL/EN/SOP/057",
+            "unit": "µg/m³",
+            "sampleName": "AAQ - 12 Parameters as per NAAQS Specification",
+            "detectionLimit": "20",
+            "requirement": "400",
+            "userName": "admin@knowledgelens.com",
+            "group": "Chemical",
+            "remarks": "",
+            "entryDate": "2019-05-24 18:46:30",
+            "description": "",
+            "sampleCode": "EN",
+            "sampleCategory": "Water and Environment",
+            "department": "Proximate",
+            "record_id": "test_method_1",
+            "selected": true
+          },
+          {
+            "testName": "Arsenic as As ",
+            "method": "IS 5182 (Part- 22)",
+            "unit": "ng/m³",
+            "sampleName": "AAQ - 12 Parameters as per NAAQS Specification",
+            "detectionLimit": "0.1",
+            "requirement": "-",
+            "userName": "admin@knowledgelens.com",
+            "group": "Chemical",
+            "remarks": "",
+            "entryDate": "2019-05-24 18:46:30",
+            "description": "",
+            "sampleCode": "EN",
+            "sampleCategory": "Water and Environment",
+            "department": "Proximate",
+            "record_id": "test_method_2",
+            "selected": true
+          },
+          {
+            "testName": "Benzene",
+            "method": "IS: 5182 Part 11",
+            "unit": "µg/m³",
+            "sampleName": "AAQ - 12 Parameters as per NAAQS Specification",
+            "detectionLimit": "1",
+            "requirement": "-",
+            "userName": "admin@knowledgelens.com",
+            "group": "VOC",
+            "remarks": "",
+            "entryDate": "2019-05-24 18:46:30",
+            "description": "",
+            "sampleCode": "EN",
+            "sampleCategory": "Water and Environment",
+            "department": "Instrument",
+            "record_id": "test_method_3",
+            "selected": true
+          },
+          {
+            "testName": "Benzo (a) Pyrene (Particulate Phase)",
+            "method": "IS 5182 (Part -4)/USEPA8270 ",
+            "unit": "ng/m³",
+            "sampleName": "AAQ - 12 Parameters as per NAAQS Specification",
+            "detectionLimit": "0.03",
+            "requirement": "-",
+            "userName": "admin@knowledgelens.com",
+            "group": "PAH",
+            "remarks": "",
+            "entryDate": "2019-05-24 18:46:30",
+            "description": "",
+            "sampleCode": "EN",
+            "sampleCategory": "Water and Environment",
+            "department": "Instrument",
+            "record_id": "test_method_4",
+            "selected": true
+          },
+          {
+            "testName": "Carbon Monoxide as CO",
+            "method": "IS 5182 (Part-10)",
+            "unit": "mg/m³",
+            "sampleName": "AAQ - 12 Parameters as per NAAQS Specification",
+            "detectionLimit": "1.14",
+            "requirement": "2",
+            "userName": "admin@knowledgelens.com",
+            "group": "Chemical",
+            "remarks": "",
+            "entryDate": "2019-05-24 18:46:30",
+            "description": "",
+            "sampleCode": "EN",
+            "sampleCategory": "Water and Environment",
+            "department": "Proximate",
+            "record_id": "test_method_5",
+            "selected": true
+          }
+        ]
+      },
+      {
+        "sampleNo": "EN20010022-02",
+        "sampleName": "",
+        "description": "",
+        "identification": "",
+        "sampleQty": "",
+        "procedure": "AAQ/Stack/IAQ - GL/EN/SOP/003",
+        "collectedBy": "",
+        "amount": "",
+        "location": "Ariyalur",
+        
+        "test_list": []
+      },
+      {
+        "sampleNo": "EN20010022-03",
+        "sampleName": "",
+        "description": "",
+        "identification": "",
+        "sampleQty": "",
+        "procedure": "AAQ/Stack/IAQ - GL/EN/SOP/003",
+        "collectedBy": "",
+        "amount": "",
+        "location": "Ariyalur",
+        
+        "test_list": []
+      },
+      {
+        "sampleNo": "EN20010022-04",
+        "sampleName": "",
+        "description": "",
+        "identification": "",
+        "sampleQty": "",
+        "procedure": "AAQ/Stack/IAQ - GL/EN/SOP/003",
+        "collectedBy": "",
+        "amount": "",
+        "location": "Ariyalur",
+        
+        "test_list": []
+      },
+      {
+        "sampleNo": "EN20010022-05",
+        "sampleName": "",
+        "description": "",
+        "identification": "",
+        "sampleQty": "",
+        "procedure": "AAQ/Stack/IAQ - GL/EN/SOP/003",
+        "collectedBy": "",
+        "amount": "",
+        "location": "Ariyalur",
+        
+        "test_list": []
+      }
+    ],
+    "user_name": "admin@knowledgelens.com",
+    "userName": "admin@knowledgelens.com",
+    "entryDate": "12 Mar 2020 14:33:33",
+    "sampleList": [
+      {
+        "label": "AAQ - 12 Parameters as per NAAQS Specification",
+        "value": "AAQ - 12 Parameters as per NAAQS Specification"
+      },
+      {
+        "label": "General",
+        "value": "General"
+      },
+      {
+        "label": "VOC",
+        "value": "VOC"
+      },
+      {
+        "label": "Indoor Air Quality",
+        "value": "Indoor Air Quality"
+      },
+      {
+        "label": "IAQ  - VOC",
+        "value": "IAQ  - VOC"
+      },
+      {
+        "label": "Work Zone Monitoring  - VOC",
+        "value": "Work Zone Monitoring  - VOC"
+      },
+      {
+        "label": "Work Zone Monitoring",
+        "value": "Work Zone Monitoring"
+      },
+      {
+        "label": "Fugitive Emission  - VOC",
+        "value": "Fugitive Emission  - VOC"
+      },
+      {
+        "label": "Stack - VOC",
+        "value": "Stack - VOC"
+      },
+      {
+        "label": "Stack - Full",
+        "value": "Stack - Full"
+      },
+      {
+        "label": "Stack  (Above 1000 KVA DG - Limit as per MoEF Specification\n(CPCB))",
+        "value": "Stack  (Above 1000 KVA DG - Limit as per MoEF Specification\n(CPCB))"
+      },
+      {
+        "label": "Stack (Below 1000 KVA DG - Limit as per MoEF Specification\n(CPCB)",
+        "value": "Stack (Below 1000 KVA DG - Limit as per MoEF Specification\n(CPCB)"
+      },
+      {
+        "label": "Stack (Below 1000 KVA DG - Limit as per MoEF Specification\n(CPCB))",
+        "value": "Stack (Below 1000 KVA DG - Limit as per MoEF Specification\n(CPCB))"
+      },
+      {
+        "label": "General Stack",
+        "value": "General Stack"
+      },
+      {
+        "label": "Soil and Sludge",
+        "value": "Soil and Sludge"
+      },
+      {
+        "label": "TCLP",
+        "value": "TCLP"
+      },
+      {
+        "label": "Water for Processed Food Industry IS :4251-1967",
+        "value": "Water for Processed Food Industry IS :4251-1967"
+      },
+      {
+        "label": "IS: 14543- 2016: Packaged Drinking Water.\n(Other than Packaged Mineral Water)   \nPackaged Natural Mineral Water and other waters",
+        "value": "IS: 14543- 2016: Packaged Drinking Water.\n(Other than Packaged Mineral Water)   \nPackaged Natural Mineral Water and other waters"
+      },
+      {
+        "label": "Construction Water IS:456-2000",
+        "value": "Construction Water IS:456-2000"
+      },
+      {
+        "label": "Reagent Grade Water As Per IS:1070",
+        "value": "Reagent Grade Water As Per IS:1070"
+      },
+      {
+        "label": "Surface water",
+        "value": "Surface water"
+      },
+      {
+        "label": "Drinking Water IS 10500",
+        "value": "Drinking Water IS 10500"
+      },
+      {
+        "label": "Effluent Water (As per CPCB)",
+        "value": "Effluent Water (As per CPCB)"
+      },
+      {
+        "label": "Effluent  Water (As per TNPCB)",
+        "value": "Effluent  Water (As per TNPCB)"
+      },
+      {
+        "label": "Effluent Simple Pack",
+        "value": "Effluent Simple Pack"
+      },
+      {
+        "label": "Sewage Simple Pack",
+        "value": "Sewage Simple Pack"
+      },
+      {
+        "label": "Waste oil (Hazardous Waste Management Rules 2016\n(Schedule 5, Rule 3))",
+        "value": "Waste oil (Hazardous Waste Management Rules 2016\n(Schedule 5, Rule 3))"
+      },
+      {
+        "label": "Used oil (Hazardous Waste Management Rules 2016\n(Schedule 5, Rule 3))",
+        "value": "Used oil (Hazardous Waste Management Rules 2016\n(Schedule 5, Rule 3))"
+      }
+    ],
+    "status": true
+  }

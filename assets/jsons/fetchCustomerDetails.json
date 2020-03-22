@@ -1,0 +1,25 @@
+{
+    "status": "success",
+    "data": {
+      "emailId": "",
+      "firstName": "",
+      "lastName": "",
+      "userName": "admin@knowledgelens.com",
+      "phone": "9442501194",
+      "userType": "",
+      "active": "",
+      "loginAllowed": "",
+      "password": "",
+      "confirmPassword": "",
+      "customerCategory": "sample",
+      "address": "Odapalli, Cauvery RS (PO) Komarapalayam TK, Namakkal Dt.",
+      "pinCode": "638007",
+      "city": "Erode",
+      "state": "Tamil Nadu",
+      "email": "inst@ponnisugars.com",
+      "contactPerson": "Vijayakumar",
+      "mobile": "9442501194",
+      "sms": "Santhanam",
+      "entryDate": "29 May 2019 11:22:07"
+    }
+  }

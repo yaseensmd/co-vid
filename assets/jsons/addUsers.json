@@ -1,0 +1,194 @@
+{
+    "status": "success",
+    "data": {
+        "form": [
+            {
+                "name": "User ID",
+                "type": "text",
+                "key": "userId",
+                "value": "",
+                "placeholder": "Enter User ID",
+                "required": true,
+                "disabled": true,
+                "bindValue": "key",
+                "bindLabel": "label"
+              },
+              {
+                "name": "User Name",
+                "type": "text",
+                "key": "userName",
+                "value": "",
+                "placeholder": "Enter User Name",
+                "required": true,
+                "disabled": false,
+                "bindValue": "key",
+                "bindLabel": "label"
+              },
+              {
+                "name": "First Name",
+                "type": "text",
+                "key": "firstName",
+                "value": "",
+                "placeholder": "Enter First Name",
+                "required": true,
+                "disabled": false,
+                "bindValue": "key",
+                "bindLabel": "label"
+              },
+              {
+                "name": "Last Name",
+                "type": "text",
+                "key": "lastName",
+                "value": "",
+                "placeholder": "Enter Last Name",
+                "required": true,
+                "disabled": false,
+                "bindValue": "key",
+                "bindLabel": "label"
+              },
+              {
+                "name": "Phone",
+                "type": "text",
+                "key": "phone",
+                "value": "",
+                "placeholder": "Enter Phone",
+                "required": true,
+                "disabled": false,
+                "bindValue": "key",
+                "bindLabel": "label"
+              },
+              {
+                "name": "EmailID",
+                "type": "text",
+                "key": "emailId",
+                "value": "",
+                "placeholder": "Enter EmailID",
+                "required": true,
+                "disabled": false,
+                "bindValue": "key",
+                "bindLabel": "label"
+                
+              },
+              {
+                "name": "Password",
+                "type": "text",
+                "key": "password",
+                "value": "",
+                "placeholder": "Enter Password",
+                "required": true,
+                "disabled": false,
+                "bindValue": "key",
+                "bindLabel": "label"
+              },
+              {
+                "name": "Access Secret Key",
+                "type": "text",
+                "key": "accessSecretKey",
+                "value": "",
+                "placeholder": "Enter Access Secret Key",
+                "required": true,
+                "disabled": false,
+                "bindValue": "key",
+                "bindLabel": "label"
+              },
+              {
+                "name": "Public Secret Key",
+                "type": "text",
+                "key": "publicSecretKey",
+                "value": "",
+                "placeholder": "Enter Public Secret Key",
+                "required": true,
+                "disabled": false,
+                "bindValue": "key",
+                "bindLabel": "label"
+              },
+              {
+                "name": "Available Domain",
+                "type": "select",
+                "key": "availableDomain",
+                "value": "",
+                "placeholder": "Select Available Domain",
+                "required": true,
+                "disabled": false,
+                "bindValue": "key",
+                "bindLabel": "label",
+                "options": [
+                  {
+                    "label": "lims.knowledgelens.com",
+                    "value": "lims.knowledgelens.com"
+                  }
+                ]
+              },
+              {
+                "name": "User Group",
+                "type": "select",
+                "key": "userGroup",
+                "value": "",
+                "placeholder": "Enter User Group",
+                "required": true,
+                "disabled": false,
+                "bindValue": "key",
+                "bindLabel": "label",
+                "options": [
+                  {
+                    "label": "admin",
+                    "value": "admin"
+                  },
+                  {
+                    "label": "admin",
+                    "value": "admin"
+                  },
+                  {
+                    "label": "labTech",
+                    "value": "labTech"
+                  }
+                ],
+                "dependent": false
+              },
+              {
+                "name": "Status",
+                "type": "checkbox",
+                "key": "status",
+                "value": "",
+                "placeholder": "Select Status",
+                "required": true,
+                "disabled": false,
+                "bindValue": "key",
+                "bindLabel": "label",
+                "options": [
+                  {
+                    "label": "Active",
+                    "key": "Active"
+                  },
+                  {
+                    "label": "Inactive",
+                    "key": "Inactive"
+                  }
+                ]
+              },
+              {
+                "name": "Login allowed",
+                "type": "checkbox",
+                "key": "loginAllowed",
+                "value": "",
+                "placeholder": "Select Login allowed",
+                "required": true,
+                "disabled": false,
+                "bindValue": "key",
+                "bindLabel": "label",
+                "options": [
+                  {
+                    "label": "Yes",
+                    "key": "Yes"
+                  },
+                  {
+                    "label": "No",
+                    "key": "No"
+                  }
+                ]
+              }
+        ]
+    }
+}
+
+   

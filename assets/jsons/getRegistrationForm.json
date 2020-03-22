@@ -1,0 +1,552 @@
+{
+    "status": "success",
+    "data": {
+        "customerDetails": [
+            {
+                "placeholder": "",
+                "type": "select",
+                "name": "Customer Name",
+                "key": "customerName",
+                "required": true,
+                "options": [],
+                "bindNameTo": "Customer_name",
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4",
+                "multipleDependency": true,
+                "dependencyKeys": [
+                    "primaryContactPerson",
+                    "secondaryContactPerson"
+                ]
+            },
+            {
+                "placeholder": "",
+                "type": "select",
+                "min": 0,
+                "name": "Primary Contact Person",
+                "key": "primaryContactPerson",
+                "required": false,
+                "options": [
+                    {
+                        "label": "Test 1",
+                        "key": "test1"
+                    },
+                    {
+                        "label": "Test 2",
+                        "key": "test2"
+                    }
+                ],
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "select",
+                "min": 0,
+                "name": "Secondary Contact Person",
+                "key": "secondaryContactPerson",
+                "required": false,
+                "options": [
+                    {
+                        "label": "Test 3",
+                        "key": "test3"
+                    },
+                    {
+                        "label": "Test 4",
+                        "key": "test4"
+                    }
+                ],
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "Enter Email",
+                "type": "email",
+                "name": "Email:",
+                "key": "email",
+                "required": true,
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "number",
+                "min": 0,
+                "name": "Mobile Number",
+                "key": "mobile",
+                "required": true,
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "number",
+                "min": 0,
+                "name": "Secondary Mobile Number",
+                "key": "phone",
+                "required": true,
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "disabled": true,
+                "selectMode": "single",
+                "placeholder": "Date",
+                "name": "Registration Date",
+                "key": "regDate",
+                "type": "date",
+                "required": true,
+                "pickerType": "calendar",
+                "columns": "4"
+            },
+            {
+                "disabled": true,
+                "selectMode": "single",
+                "placeholder": "Date",
+                "name": "Due Date",
+                "key": "dueDate",
+                "type": "date",
+                "required": true,
+                "pickerType": "calendar",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "text",
+                "min": 0,
+                "name": "Locality",
+                "key": "locality",
+                "required": true,
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "text",
+                "min": 0,
+                "name": "City",
+                "key": "city",
+                "required": true,
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "textarea",
+                "min": 0,
+                "name": "Address",
+                "key": "address",
+                "required": true,
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "6"
+            }
+        ],
+        "sampleDetails": [
+            {
+                "placeholder": "",
+                "type": "select",
+                "options": [],
+                "name": "Sample Category",
+                "key": "sampleCategory",
+                "required": true,
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "number",
+                "min": 0,
+                "name": "Number of Samples",
+                "key": "numberOfSamples",
+                "required": true,
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "select",
+                "name": "Priority",
+                "key": "priority",
+                "options": [
+                    {
+                        "label": "High",
+                        "key": "high"
+                    },
+                    {
+                        "label": "Normal",
+                        "key": "normal"
+                    }
+                ],
+                "required": true,
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "disabled": true,
+                "selectMode": "single",
+                "placeholder": "Date",
+                "name": "From",
+                "key": "fromDate",
+                "type": "date",
+                "required": true,
+                "pickerType": "calendar",
+                "columns": "4"
+            },
+            {
+                "disabled": true,
+                "selectMode": "single",
+                "placeholder": "Date",
+                "name": "To ",
+                "key": "toDate",
+                "type": "date",
+                "required": true,
+                "pickerType": "calendar",
+                "columns": "4"
+            },
+            {
+                "disabled": true,
+                "selectMode": "single",
+                "placeholder": "Date",
+                "name": "Received On",
+                "key": "receivedOn",
+                "type": "date",
+                "required": true,
+                "pickerType": "calendar",
+                "columns": "4"
+            },
+            {
+                "disabled": true,
+                "selectMode": "single",
+                "placeholder": "Date",
+                "name": "Collected On",
+                "key": "collectedOn",
+                "type": "date",
+                "required": true,
+                "pickerType": "calendar",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "checkbox",
+                "min": 0,
+                "name": "Sample Return",
+                "key": "sampleReturn",
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "checkbox",
+                "min": 0,
+                "name": "Witness",
+                "key": "witness",
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "select",
+                "options": [
+                    {
+                        "label": "Fit for analysis",
+                        "key": "fitForAnalysis"
+                    },
+                    {
+                        "label": "Unfit for analysis",
+                        "key": "unfitForAnalysis"
+                    }
+                ],
+                "min": 0,
+                "name": "Select fit status",
+                "key": "fitStatus",
+                "required": true,
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "select",
+                "options": [],
+                "min": 0,
+                "name": "Procedure",
+                "key": "procedure",
+                "required": false,
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "textarea",
+                "min": 0,
+                "name": "Remarks",
+                "key": "remarks",
+                "required": false,
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            }
+        ],
+        "refDetails": [
+            {
+                "placeholder": "",
+                "type": "text",
+                "name": "Reference Person",
+                "key": "refPerson",
+                "required": false,
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "text",
+                "min": 0,
+                "name": "Customer Reference ",
+                "key": "customerReference",
+                "required": true,
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "disabled": true,
+                "selectMode": "single",
+                "placeholder": "Date",
+                "name": "Reference Date ",
+                "key": "refDate",
+                "type": "date",
+                "required": true,
+                "pickerType": "calendar",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "text",
+                "min": 0,
+                "name": "Booked By ",
+                "key": "bookedBy",
+                "required": false,
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "number",
+                "min": 0,
+                "name": "Mobile",
+                "key": "refPerMobileNo",
+                "required": false,
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "Enter Email",
+                "type": "email",
+                "name": "Email:",
+                "key": "refPerEmail",
+                "required": false,
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            }
+        ],
+        "checkList": [
+            {
+                "placeholder": "",
+                "type": "checkbox",
+                "name": "Customer Name Mentioned?",
+                "key": "cusNameMentioned",
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "checkbox",
+                "name": "Test Parameter Mentioned?",
+                "key": "testParamMentioned",
+                "Value": "false",
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "checkbox",
+                "name": "Specification / Purpose if any?",
+                "key": "purpose",
+                "Value": "false",
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "checkbox",
+                "name": "Is request letter from customer available?",
+                "key": "CustomerLetter",
+                "Value": "false",
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "checkbox",
+                "name": "Is sampling Data Sheet Attached, if sampled by lab?",
+                "key": "samplingDataSheet",
+                "Value": "false",
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "checkbox",
+                "name": "Sample Name Mentioned?",
+                "key": "sampleNameMentioned",
+                "Value": "false",
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "checkbox",
+                "name": "Test Method Mentioned?",
+                "key": "testMethodMentioned",
+                "Value": "false",
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "checkbox",
+                "name": "Is Lab Capable?",
+                "key": "labCapable",
+                "Value": "false",
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "checkbox",
+                "name": "Submitted under specified conditions?",
+                "key": "specifiedCondiotions",
+                "Value": "false",
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "checkbox",
+                "name": "Are Customer Details Masked?",
+                "key": "custDetailsMasked",
+                "Value": "false",
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "checkbox",
+                "name": "Is quantity of sample allotted to each section mentioned in sample delivery register?",
+                "key": "eachSecAlloted",
+                "Value": "false",
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "select",
+                "name": "Condition Of Container",
+                "key": "containerCondition",
+                "options": [
+                    {
+                        "label": "NA",
+                        "key": "NA"
+                    },
+                    {
+                        "label": "Good",
+                        "key": "good"
+                    },
+                    {
+                        "label": "Damaged",
+                        "key": "damaged"
+                    }
+                ],
+                "required": true,
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "select",
+                "name": "Condition Of Seal",
+                "key": "sealCondition",
+                "options": [
+                    {
+                        "label": "NA",
+                        "key": "NA"
+                    },
+                    {
+                        "label": "Good",
+                        "key": "good"
+                    },
+                    {
+                        "label": "Damaged",
+                        "key": "damaged"
+                    }
+                ],
+                "required": true,
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "number",
+                "min": 0,
+                "name": "Required Sample Qty",
+                "key": "requiredSampleQty",
+                "required": true,
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            },
+            {
+                "placeholder": "",
+                "type": "number",
+                "min": 0,
+                "name": "Submited SampleQty",
+                "key": "submittedSampleQty",
+                "required": true,
+                "bindValue": "key",
+                "bindLabel": "label",
+                "columns": "4"
+            }
+        ]
+    }
+}

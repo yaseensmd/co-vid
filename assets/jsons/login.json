@@ -1,0 +1,9 @@
+{
+    "status": "success",
+    "data": {
+        "user_id": "user_1",
+        "user_name": "Ramesh",
+        "user_type": "admin",
+        "server": "server_1"
+    }
+}

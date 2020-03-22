@@ -1,0 +1,96 @@
+{
+  "status": "success",
+  "headerContent": [
+    {
+      "label": "record_id",
+      "key": "record_id",
+      "name": "Record Id",
+      "hidden": true
+    },
+    {
+      "label": "job_id",
+      "key": "job_id",
+      "name": "Job Id",
+      "hidden": true
+    },
+    {
+      "label": "customerName",
+      "key": "customerName",
+      "name": "Customer Name"
+    },
+    {
+      "label": "sampleCategory",
+      "key": "sampleCategory",
+      "name": "Sample Category"
+    },
+    {
+      "label": "numberOfSamples",
+      "key": "numberOfSamples",
+      "dataType": "number",
+      "name": "Number Of Samples"
+    },
+    {
+      "label": "customerReference",
+      "key": "customerReference",
+      "name": "Customer Reference"
+    },
+    {
+      "label": "refDate",
+      "key": "refDate",
+      "name": "Ref Date"
+    },
+    {
+      "label": "priority",
+      "key": "priority",
+      "name": "Priority"
+    },
+    {
+      "label": "dueDate",
+      "key": "dueDate",
+      "name": "Due Date"
+    },
+    {
+      "label": "recievedOn",
+      "key": "recievedOn",
+      "name": "Recieved On"
+    }
+  ],
+  "bodyContent": [
+    {
+      "record_id": "REP_1904_0003",
+      "job_id": "ENC1904_0003",
+      "customerName": "customer_master_14",
+      "sampleCategory": "WATER & ENVIRONMENT",
+      "numberOfSamples": "2",
+      "customerReference": "Letter dated 08.01.2019",
+      "refDate": "08-01-2019 12:05:41",
+      "priority": "Normal",
+      "dueDate": "12-01-2019 12:05:41",
+      "recievedOn": "08-01-2019 12:05:41"
+    },
+    {
+      "record_id": "REP_1904_0002",
+      "job_id": "ENC1904_0002",
+      "customerName": "customer_master_10",
+      "sampleCategory": "WATER & ENVIRONMENT",
+      "numberOfSamples": "1",
+      "customerReference": "Letter dated 8.1.2019",
+      "refDate": "08-01-2019 10:24:17",
+      "priority": "Normal",
+      "dueDate": "17-01-2019 10:24:17",
+      "recievedOn": "08-01-2019 10:24:17"
+    },
+    {
+      "record_id": "REP_1904_0001",
+      "job_id": "ENC1904_0001",
+      "customerName": "customer_master_10",
+      "sampleCategory": "WATER & ENVIRONMENT",
+      "numberOfSamples": "2",
+      "customerReference": "Quality Check",
+      "refDate": "03-01-2019 10:05:16",
+      "priority": "Normal",
+      "dueDate": "10-01-2019 10:05:16",
+      "recievedOn": "03-01-2019 10:05:16"
+    }
+  ]
+}

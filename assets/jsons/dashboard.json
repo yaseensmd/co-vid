@@ -1,0 +1,84 @@
+{
+	"status": true,
+	"message": "success",
+	"data": {
+	  "pendingReq": {
+		"count": 5,
+		"color": "#FF0000",
+		"lastUpdatedtime": "2020-03-12"
+	  },
+	  "totalReq": {
+		"count": 7,
+		"color": "#008000",
+		"lastUpdatedtime": "2020-03-12"
+	  },
+	  "closedReq": {
+		"count": 2,
+		"color": "#0000ff",
+		"lastUpdatedtime": "2020-03-12"
+	  },
+	  "dailyReq": {
+		"data": [
+		  {
+			"key": "2020-03-09",
+			"label": "2020-03-09",
+			"value": 0
+		  },
+		  {
+			"key": "2020-03-10",
+			"label": "2020-03-10",
+			"value": 0
+		  },
+		  {
+			"key": "2020-03-11",
+			"label": "2020-03-11",
+			"value": 4
+		  },
+		  {
+			"key": "2020-03-12",
+			"label": "2020-03-12",
+			"value": 2
+		  },
+		  {
+			"key": "2020-03-13",
+			"label": "2020-03-13",
+			"value": 0
+		  },
+		  {
+			"key": "2020-03-14",
+			"label": "2020-03-14",
+			"value": 0
+		  },
+		  {
+			"key": "2020-03-15",
+			"label": "2020-03-15",
+			"value": 0
+		  },
+		  {
+			"key": "2020-03-16",
+			"label": "2020-03-16",
+			"value": 0
+		  }
+		]
+	  },
+	  "monthlyRequests": {
+		"data": [
+		  {
+			"key": "Jan",
+			"label": "Jan",
+			"value": 0
+		  },
+		  {
+			"key": "Feb",
+			"label": "Feb",
+			"value": 0
+		  },
+		  {
+			"key": "Mar",
+			"label": "Mar",
+			"value": 6
+		  }
+		]
+	  }
+	}
+  }

@@ -1,0 +1,172 @@
+{
+  "status": "success",
+  "headerContent": [
+    {
+      "name": "Customer Category",
+      "type": "select",
+      "key": "customerCategory",
+      "value": "",
+      "placeholder": "Select Customer Category",
+      "required": true,
+      "disabled": false,
+      "options": [
+        {
+          "label": "sample",
+          "value": "sample"
+        }
+      ],
+      "dependent": false
+    },
+    {
+      "name": "Customer Name",
+      "type": "text",
+      "key": "customerName",
+      "value": "",
+      "placeholder": "Enter Customer Name",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "name": "Customer Code",
+      "type": "text",
+      "key": "customerCode",
+      "value": "",
+      "placeholder": "Enter Customer Code",
+      "required": false,
+      "disabled": false
+    },
+    {
+      "name": "Contact Person",
+      "type": "text",
+      "key": "contactPerson",
+      "value": "",
+      "placeholder": "Select Contact Person",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "name": "Address",
+      "type": "text",
+      "key": "address",
+      "value": "",
+      "placeholder": "Select Address",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "name": "Pin Code",
+      "type": "text",
+      "key": "pinCode",
+      "value": "",
+      "placeholder": "Select Pin Code",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "name": "City",
+      "type": "text",
+      "key": "city",
+      "value": "",
+      "placeholder": "Enter City",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "name": "State",
+      "type": "text",
+      "key": "state",
+      "value": "",
+      "placeholder": "Enter State",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "name": "Phone",
+      "type": "text",
+      "key": "phone",
+      "value": "",
+      "placeholder": "Enter Phone",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "name": "Mobile",
+      "type": "text",
+      "key": "mobile",
+      "value": "",
+      "placeholder": "Enter Mobile",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "name": "SMS Ref. Person",
+      "type": "text",
+      "key": "sms",
+      "value": "",
+      "placeholder": "Select SMS Ref. Person",
+      "required": true,
+      "disabled": false,
+      "options": [
+        {
+          "label": "Select",
+          "value": "Select"
+        }
+      ],
+      "dependent": false
+    },
+    {
+      "name": "Email",
+      "type": "text",
+      "key": "email",
+      "value": "",
+      "placeholder": "Enter Email",
+      "required": true,
+      "disabled": false
+    },
+    {
+      "name": "Web Site",
+      "type": "text",
+      "key": "webSite",
+      "value": "",
+      "placeholder": "Enter Web Site",
+      "required": false,
+      "disabled": false
+    },
+    {
+      "name": "Credit Limit",
+      "type": "text",
+      "key": "creditLimit",
+      "value": "",
+      "placeholder": "Enter Credit Limit",
+      "required": false,
+      "disabled": false
+    },
+    {
+      "name": "Current Credit",
+      "type": "text",
+      "key": "currentCredit",
+      "value": "",
+      "placeholder": "Enter Current Credit",
+      "required": false,
+      "disabled": false
+    },
+    {
+      "name": "Balance",
+      "type": "text",
+      "key": "balance",
+      "value": "",
+      "placeholder": "Enter Balance",
+      "required": false,
+      "disabled": false
+    },
+    {
+      "name": "Remarks",
+      "type": "textarea",
+      "key": "remarks",
+      "value": "",
+      "placeholder": "Enter Remarks",
+      "required": false,
+      "disabled": false
+    }
+  ]
+}

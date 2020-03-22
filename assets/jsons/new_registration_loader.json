@@ -1,0 +1,502 @@
+{
+  "status": "success",
+  "headerContent": [
+    {
+      "label": "Job Number",
+      "type": "text",
+      "key": "bookingNumber",
+      "value": "",
+      "placeholder": "Select the Job number",
+      "required": false,
+      "disabled": false,
+      "dependent": false
+    },
+    {
+      "label": "Customer Name",
+      "dependent": false,
+      "options": [
+        {
+          "label": "Anjan Drug Private Limited",
+          "value": "customer_master_28"
+        },
+        {
+          "label": "Asian Beverages Private Limited",
+          "value": "customer_master_31"
+        },
+        {
+          "label": "Bannari Amman Sugars Ltd",
+          "value": "customer_master_24"
+        },
+        {
+          "label": "Chettinad Cement Corporation Private Limited",
+          "value": "customer_master_22"
+        },
+        {
+          "label": "Deepak Fertilisers and Petrochemeicals Corporation Limited",
+          "value": "customer_master_23"
+        },
+        {
+          "label": "GLens Innovation Labs Pvt Ltd",
+          "value": "customer_master_19"
+        },
+        {
+          "label": "GLens Innovation Labs Pvt Ltd",
+          "value": "customer_master_21"
+        },
+        {
+          "label": "GLens Innovation Labs Pvt Ltd",
+          "value": "customer_master_30"
+        },
+        {
+          "label": "India Cement Dalavoi works - Ariyalur",
+          "value": "customer_master_36"
+        },
+        {
+          "label": "India Cements",
+          "value": "customer_master_26"
+        },
+        {
+          "label": "India Cements",
+          "value": "customer_master_29"
+        },
+        {
+          "label": "M/S DALMIA CEMENT (BHARAT) LIMITED",
+          "value": "customer_master_33"
+        },
+        {
+          "label": "M/s.Coramandal International Ltd",
+          "value": "customer_master_32"
+        },
+        {
+          "label": "MylanLaboratories Limited",
+          "value": "customer_master_27"
+        },
+        {
+          "label": "Ponni Sugars (Erode) Ltd",
+          "value": "customer_master_20"
+        },
+        {
+          "label": "SMS Lifesciences India Limited",
+          "value": "customer_master_25"
+        },
+        {
+          "label": "Tata Chemicals Limited",
+          "value": "customer_master_35"
+        },
+        {
+          "label": "Zuari Cements Limited",
+          "value": "customer_master_34"
+        }
+      ],
+      "type": "select",
+      "key": "customerName",
+      "value": "",
+      "placeholder": "Enter Customer Name",
+      "required": true,
+      "disabled": false,
+      "isAPI": true,
+      "apiDetails": {
+        "payLoad": {
+          "id": "",
+          "meta": "metainfo"
+        },
+        "api": "fetch_customer_details"
+      }
+    },
+    {
+      "label": "Address",
+      "type": "textarea",
+      "key": "address",
+      "value": "",
+      "placeholder": "Enter address",
+      "required": true,
+      "disabled": false,
+      "dependent": false
+    },
+    {
+      "label": "Locality",
+      "type": "text",
+      "key": "locality",
+      "value": "",
+      "placeholder": "Enter Locality",
+      "required": true,
+      "disabled": false,
+      "dependent": false
+    },
+    {
+      "label": "City",
+      "type": "text",
+      "key": "city",
+      "value": "",
+      "placeholder": "Enter City",
+      "required": true,
+      "disabled": false,
+      "dependent": false
+    },
+    {
+      "label": "Tele Phone",
+      "type": "text",
+      "key": "phone",
+      "value": "",
+      "placeholder": "Enter Telephone",
+      "required": false,
+      "disabled": false,
+      "dependent": false
+    },
+    {
+      "label": "Sales Person Id",
+      "type": "text",
+      "key": "smsPersonId",
+      "value": "",
+      "placeholder": "Enter Sales Person Id",
+      "required": true,
+      "disabled": false,
+      "dependent": false
+    },
+    {
+      "label": "Mobile Number",
+      "type": "text",
+      "key": "mobile",
+      "value": "",
+      "placeholder": "Enter Mobile Number",
+      "required": true,
+      "disabled": false,
+      "dependent": false
+    },
+    {
+      "label": "Email",
+      "type": "email",
+      "key": "email",
+      "value": "",
+      "placeholder": "Enter Email",
+      "required": true,
+      "disabled": false,
+      "dependent": false
+    },
+    {
+      "label": "Priority",
+      "type": "select",
+      "key": "priority",
+      "value": "",
+      "placeholder": "Enter Priority",
+      "required": true,
+      "disabled": false,
+      "options": [
+        {
+          "label": "Normal",
+          "value": "Normal"
+        },
+        {
+          "label": "Urgent",
+          "value": "Urgent"
+        }
+      ],
+      "dependent": false
+    },
+    {
+      "label": "Ref Date",
+      "type": "date",
+      "key": "refDate",
+      "value": "",
+      "placeholder": "Enter Ref Date",
+      "required": true,
+      "disabled": false,
+      "dependent": false
+    },
+    {
+      "label": "Customer Reference",
+      "type": "text",
+      "key": "customerReference",
+      "value": "",
+      "placeholder": "Enter Customer Reference",
+      "required": true,
+      "disabled": false,
+      "dependent": false
+    },
+    {
+      "label": "Sample Date & Time",
+      "type": "time",
+      "key": "sampleDate",
+      "value": "",
+      "placeholder": "Enter Sample Date",
+      "required": false,
+      "disabled": false,
+      "dependent": false
+    },
+    {
+      "label": "Booked By",
+      "type": "text",
+      "key": "bookedBy",
+      "value": "",
+      "placeholder": "Enter Booked By",
+      "required": true,
+      "disabled": false,
+      "dependent": false
+    },
+    {
+      "label": "Recieved on",
+      "type": "date",
+      "key": "recievedOn",
+      "value": "",
+      "placeholder": "Enter Recieved on",
+      "required": true,
+      "disabled": false,
+      "dependent": false
+    },
+    {
+      "label": "Collected on",
+      "type": "date",
+      "key": "collectedOn",
+      "value": "",
+      "placeholder": "Enter collected on",
+      "required": false,
+      "disabled": false,
+      "dependent": false
+    },
+    {
+      "label": "Sample Category",
+      "type": "select",
+      "key": "sampleCategory",
+      "value": "",
+      "placeholder": "Select the customer type",
+      "required": true,
+      "disabled": false,
+      "options": [
+        {
+          "label": "APEDA",
+          "value": "APEDA"
+        },
+        {
+          "label": "BIS",
+          "value": "BIS"
+        },
+        {
+          "label": "Container",
+          "value": "Container"
+        },
+        {
+          "label": "EIC WATER",
+          "value": "EIC WATER"
+        },
+        {
+          "label": "EIC-SE",
+          "value": "EIC-SE"
+        },
+        {
+          "label": "EIC-SN",
+          "value": "EIC-SN"
+        },
+        {
+          "label": "EIC-Sea Food",
+          "value": "EIC-Sea Food"
+        },
+        {
+          "label": "FOOD",
+          "value": "FOOD"
+        },
+        {
+          "label": "FSSAI",
+          "value": "FSSAI"
+        },
+        {
+          "label": "MICROBIOLOGY",
+          "value": "MICROBIOLOGY"
+        },
+        {
+          "label": "Miscellaneous",
+          "value": "Miscellaneous"
+        },
+        {
+          "label": "Pharma",
+          "value": "Pharma"
+        },
+        {
+          "label": "WATER & ENVIRONMENT",
+          "value": "WATER & ENVIRONMENT"
+        }
+      ],
+      "dependent": false
+    },
+    {
+      "label": "Number of Samples",
+      "type": "text",
+      "key": "numberOfSamples",
+      "value": "",
+      "placeholder": "Enter Number of Samples",
+      "required": true,
+      "disabled": false,
+      "dependent": false
+    },
+    {
+      "label": "Sample Return",
+      "type": "checkbox",
+      "key": "sampleReturn",
+      "value": "",
+      "placeholder": "Enter Sample Return",
+      "required": false,
+      "disabled": false,
+      "options": [
+        {
+          "label": "sample return",
+          "value": "sampleReturn"
+        }
+      ],
+      "dependent": false
+    },
+    {
+      "label": "Witness",
+      "type": "checkbox",
+      "key": "witness",
+      "value": "",
+      "placeholder": "Enter Witness",
+      "required": false,
+      "disabled": false,
+      "options": [
+        {
+          "label": "witness",
+          "value": "witness"
+        }
+      ],
+      "dependent": false
+    },
+    {
+      "label": "Due Date",
+      "type": "date",
+      "key": "dueDate",
+      "value": "",
+      "placeholder": "Enter Test Due Date",
+      "required": true,
+      "disabled": false,
+      "dependent": false
+    },
+    {
+      "label": "Reg Date",
+      "type": "date",
+      "key": "regDate",
+      "value": "",
+      "placeholder": "Enter Register Due Date",
+      "required": false,
+      "disabled": false,
+      "dependent": false
+    },
+    {
+      "label": "Ref Person",
+      "type": "text",
+      "key": "refPerson",
+      "value": "",
+      "placeholder": "Enter Ref Person",
+      "required": false,
+      "disabled": false,
+      "dependent": false
+    },
+    {
+      "label": "Ref Per Mobile No",
+      "type": "text",
+      "key": "refPerMobileNo",
+      "value": "",
+      "placeholder": "Enter RefPer Mobile No",
+      "required": false,
+      "disabled": false,
+      "dependent": false
+    },
+    {
+      "label": "Ref Per Email",
+      "type": "text",
+      "key": "refPerEmail",
+      "value": "",
+      "placeholder": "Enter Ref Per Email",
+      "required": false,
+      "disabled": false,
+      "dependent": false
+    },
+    {
+      "label": "Remarks",
+      "type": "textarea",
+      "key": "remarks",
+      "value": "",
+      "placeholder": "Enter Remarks",
+      "required": false,
+      "disabled": false,
+      "dependent": false
+    },
+    {
+      "label": "User Name",
+      "type": "system",
+      "key": "userName",
+      "dependent": false
+    },
+    {
+      "label": "Entry Date",
+      "type": "system",
+      "key": "entryDate",
+      "dependent": false
+    },
+    {
+      "label": "Procedure",
+      "type": "text",
+      "key": "procedure",
+      "value": "",
+      "placeholder": "procedure",
+      "required": false,
+      "disabled": false,
+      "dependent": false
+    }
+  ],
+  "bodyContent": {
+    "date": "2020-02-27T13:05:40Z",
+    "receivedOn": "2020-02-27T13:07:36Z",
+    "collectedOn": "2020-02-27T13:07:36Z",
+    "refDate": "2020-02-27T13:07:36Z",
+    "regDate": "2020-02-27T13:07:36Z",
+    "dueDate": "2020-02-27T13:07:36Z",
+    "sampleDate": "2020-02-27T13:07:36Z",
+    "fromDate": "2020-02-27T13:05:40Z",
+    "toDate": "2020-02-27T13:05:40Z",
+    "installCluster": "",
+    "bookedBy": "",
+    "refPerson": "",
+    "refPerMobileNo": "",
+    "refPerEmail": "",
+    "procedure": "AAQ/Stack/IAQ - GL/EN/SOP/003",
+    "phone": "04448686522",
+    "remarks": "",
+    "customerName": "customer_master_19",
+    "emailId": "",
+    "firstName": "",
+    "lastName": "",
+    "userName": "admin@knowledgelens.com",
+    "userType": "",
+    "active": "",
+    "loginAllowed": "",
+    "password": "",
+    "confirmPassword": "",
+    "customerCategory": "sample",
+    "address": "6/1, Ist Floor, Sri Jothi Complex, Murugesan Street, Balavinayagar Nagar, Arumbakkam,",
+    "pinCode": "600 106",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "email": "quality@glenslabs.com",
+    "contactPerson": "Selvi",
+    "mobile": "8778097561",
+    "sms": "Selvi",
+    "entryDate": "27 Feb 2020 13:07:36",
+    "locality": "aA",
+    "sampleCategory": "WATER & ENVIRONMENT",
+    "numberOfSamples": 1,
+    "priority": "high",
+    "sampleReturn": false,
+    "fitStatus": "fitForAnalysis",
+    "customerReference": "ZSAS",
+    "containerCondition": "good",
+    "sealCondition": "good",
+    "requiredSampleQty": 1,
+    "submittedSampleQty": 1,
+    "partiallySelected": true,
+    "record_id": "REC_2002_0020",
+    "job_id": "EN2002_0020",
+    "jobStatus": "false",
+    "authDate": "",
+    "reportStatus": "false",
+    "dispatchStatus": "reported"
+  }
+}

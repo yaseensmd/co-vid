@@ -1,0 +1,73 @@
+{
+  "status": true,
+  "data": {
+    "menus": [
+      {
+        "name": "Dashboard",
+        "icon": "",
+        "key": "Dashboard",
+        "route": "/layout/dashboard"
+      },
+      {
+        "name": "Registration",
+        "icon": "",
+        "key": "Registration",
+        "route": "/layout/registration"
+      },
+      {
+        "name": "Users",
+        "icon": "",
+        "key": "Users",
+        "route": "/layout/users"
+      },
+      {
+        "name": "Customers",
+        "icon": "",
+        "key": "Customers",
+        "route": "/layout/customers"
+      },
+      {
+        "name": "Settings",
+        "icon": "",
+        "key": "Settings",
+        "child": [
+          {
+            "name": "sample category",
+            "key": "Sample Category",
+            "route": "/layout/settings/generic-settings/list/sampleCategory"
+          },
+          {
+            "name": "sample",
+            "key": "Sample",
+            "route": "/layout/settings/generic-settings/list/sample"
+          },
+          {
+            "name": "test",
+            "key": "Test",
+            "route": "/layout/settings/generic-settings/list/test"
+          },
+          {
+            "name": "customer category",
+            "key": "Customer Category",
+            "route": "/layout/settings/generic-settings/list/customerCategory"
+          },
+          {
+            "name": "department",
+            "key": "Department",
+            "route": "/layout/settings/generic-settings/list/department"
+          },
+          {
+            "name": "group",
+            "key": "Group",
+            "route": "/layout/settings/generic-settings/list/group"
+          },
+          {
+            "name": "procedure",
+            "key": "Procedure",
+            "route": "/layout/settings/generic-settings/list/procedure"
+          }
+        ]
+      }
+    ]
+  }
+}
